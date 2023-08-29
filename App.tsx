@@ -4,11 +4,13 @@ import {
   Text,
 } from 'react-native';
 import BarChartDemo from './src/BarChartDemo';
+import LineChartDemo from './src/LineChartDemo';
 
 const App = () => {
   return (
     <SafeAreaView>
-      <BarChartDemo />
+      {/* <BarChartDemo /> */}
+      <LineChartDemo />
     </SafeAreaView>
   );
 };
