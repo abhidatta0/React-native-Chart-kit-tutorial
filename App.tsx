@@ -5,12 +5,14 @@ import {
 } from 'react-native';
 import BarChartDemo from './src/BarChartDemo';
 import LineChartDemo from './src/LineChartDemo';
+import StackedBarChartDemo from './src/StackedBarChartDemo';
 
 const App = () => {
   return (
     <SafeAreaView>
       {/* <BarChartDemo /> */}
-      <LineChartDemo />
+      {/* <LineChartDemo /> */}
+      <StackedBarChartDemo />
     </SafeAreaView>
   );
 };
